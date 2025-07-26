@@ -6,6 +6,8 @@ from langchain_tavily import TavilySearch
 from langchain_openai import ChatOpenAI
 import os
 
+print("Hello")
+
 # Tavily API KEY
 os.environ["TAVILY_API_KEY"] = "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"
 
